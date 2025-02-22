@@ -74,6 +74,6 @@ if semilla_input and constanteA_input and constanteC_input and constanteM_input 
                 with st.expander("Hecho por:"):
                     st.write("Rodrigo González López S4A")
         else:
-            st.error("Recuerda que la semilla, la constante A y la constante C deben tener un número de dígitos pares e iguales y mayores a 0, y las iteraciones deben ser mayores a 0.")
+            st.error("Recuerda que la semilla, la constante A y la constante C deben tener un número de dígitos pares, de la misma longitud de dígitos y mayores a 0, las iteraciones deben ser mayores a 0.")
     except ValueError:
-        st.error("Por favor, ingresa valores numéricos válidos para la semillam para las constantes y las iteraciones.")    
+        st.error("Por favor, ingresa valores numéricos válidos para la semilla, para las constantes y las iteraciones.")    
