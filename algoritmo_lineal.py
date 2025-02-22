@@ -33,7 +33,7 @@ def algoritmo_lineal(semilla, constanteA, constanteC, constanteM, iteraciones):
     return resultados
     
 # Interfaz gráfica con Streamlit
-st.title("Generador Producto Medio")
+st.title("Generador Algoritmo Lineal")
 
 # Crear columnas para organizar el diseño (entrada en la izquierda y resultados en la derecha)
 col1, espacio, col2 = st.columns([2, 0.5, 3])
